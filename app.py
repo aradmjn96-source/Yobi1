@@ -106,3 +106,6 @@ def health():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+    Flask==3.1.2
+gunicorn==23.0.0
+requests==2.32.5
