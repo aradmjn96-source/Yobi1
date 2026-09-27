@@ -1,0 +1,18 @@
+{
+  "name": "as32",
+  "version": "0.1.0",
+  "description": "AS 32 AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.13.1",
+    "mineflayer": "^4.39.0",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
